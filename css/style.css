@@ -1,0 +1,54 @@
+
+.main-header {
+    background-color: orange;
+}
+
+
+ul > li {
+    display: inline-block;
+    margin: 20px;
+    zoom: 1;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+a:link {
+    color: purple;
+}
+
+a:hover {
+    color: forestgreen;
+}
+
+.page-description {
+    text-align: center;
+    p {
+     font-size: 30px;
+     padding-left: 50px;
+     padding-right: 50px;
+    }
+}
+
+.b-border {
+    border-bottom: solid purple 3px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:column {
+    content: "";
+    display: table;
+    clear: both;
+}
